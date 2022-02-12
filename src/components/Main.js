@@ -15,6 +15,7 @@ function Main() {
         <>
             <Routes>
                 <Route path='/' element ={<HomePage />}></Route>
+                <Route path='/FL_web' element ={<HomePage />}></Route>
                 <Route path='/member' element={<MemberPage />}></Route>
                 <Route path='/product' element={<ProductPage />}></Route>
                 {
