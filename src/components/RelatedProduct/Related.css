@@ -1,0 +1,13 @@
+.related{
+    margin: 8px 0;
+}
+
+.related__title{
+    line-height: 38px;
+    padding-left: 8px;
+    background-color: rgb(248, 83, 7);
+}
+
+.related__title h2{
+    font-size: 18px;
+}

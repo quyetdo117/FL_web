@@ -1,0 +1,42 @@
+.related__item{
+    width: 100%;
+    margin: 8px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    display: block;
+}
+
+.related__item:hover{
+    box-shadow: 5px 3px 20px -3px #000;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000;
+}
+
+.related__item-img{
+    position: relative;
+    padding-top: 109.655%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.related__item-img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.related__item-name{
+    padding: 0 8px;
+    max-height: 28px;
+    overflow: hidden;
+}
+
+.related__item-name h2{
+    line-height: 28px;
+    font-size: 16px;
+    color: #000;
+}

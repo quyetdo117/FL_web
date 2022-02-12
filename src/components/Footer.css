@@ -1,0 +1,48 @@
+.app__footer{
+    background-color: var(--primary-color);
+    margin-top: 2px;
+    text-align: center;
+}
+
+.footer__top{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #000;
+}
+
+.footer__top h1{
+    font-size: 18px;
+}
+
+.footer__socials{
+    margin-top: 8px;
+}
+
+.footer__bottom{
+    height: 28px;
+    line-height: 28px;
+}
+
+.footer__socials i{
+    padding: 6px;
+    font-size: 24px;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+.footer__socials i:nth-child(1):hover{
+    color: #4867aa;
+    background-color: #fff;
+}
+
+.footer__socials i:nth-child(2):hover{
+    color: #f55249;
+    background-color: #fff;
+}
+
+.footer__socials i:nth-child(3):hover{
+    color: #1da1f2;
+    background-color: #fff;
+}

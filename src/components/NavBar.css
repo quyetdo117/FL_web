@@ -1,0 +1,155 @@
+.app__navbar{
+    height: 130px;
+    background-image: linear-gradient(#000, rgb(194, 113, 21));
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.app__navbar .grid{
+    height: 100%;
+}
+
+.app__navbar .row{
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo img{
+    width: 200px;
+}
+
+.menu__list{
+    display: flex;
+    list-style: none;
+}
+
+.menu__item{
+    margin: 0 2px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 5px;
+}
+
+.menu__item.cart{
+    position: relative;
+}
+
+.quantity-cart{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.menu__item.cart{
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.menu__link{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    display: block;
+}
+
+.menu__item:hover{
+    background-color: rgb(238, 125, 20);
+}
+
+.menu__mobile{
+    position: relative;
+    margin-right: 20px;
+    display: none;
+}
+
+.menu__mobile i{
+    font-size: 34px;
+    color: #fff;
+}
+
+.noti-mobile{
+    position: absolute;
+    top: -2px;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+@media (max-width: 1023px){
+    .app__navbar{
+        height: 100px;
+    }
+
+    .menu__mobile{
+        display: block;
+    }
+
+    .menu__list{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 8px;
+        background-color: rgb(252, 126, 24);
+        animation: toLeft linear 0.5s;
+    }
+
+    .menu__item{
+        width: 200px;
+        height: 48px;
+        line-height: 48px;
+    }
+
+    .menu__link{
+        display: block;
+    }
+
+    .menu__list-coat--mb{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        display: none;
+    }
+
+    .menu__list-coat--mb.show{
+        display: block;
+    }
+
+    .menu__item.cart{
+        text-align: center;
+    }
+}
+
+@keyframes toLeft{
+    from{
+        opacity: 0;
+        right: -100%;
+    }to{
+        opacity: 1;
+        right: 0;
+    }
+}

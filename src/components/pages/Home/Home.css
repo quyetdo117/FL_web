@@ -1,0 +1,21 @@
+
+
+.home__content h1{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.home__post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__post p{
+    text-align: justify;
+}
+
+.home__post img{
+    width: 60%;
+    margin: 10px 0;
+}

@@ -1,0 +1,52 @@
+.rank__btns{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.rank__btn{
+    border: none;
+    width: 150px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #fff;
+}
+
+.rank__btn:nth-child(1){
+    border-radius: 19px 0 0 19px;
+}
+
+.rank__btn:nth-child(2){
+    border-radius: 0 19px 19px 0;
+}
+
+.rank__btn.active{
+    background-color: red;
+    color: #fff;
+}
+
+.rank__content-box{
+    perspective: 6000px;
+}
+.rank__content{
+    text-align: center;
+    position: relative;
+    min-height: 400px;
+    transform-style: preserve-3d;
+    transition: all linear 0.5s;
+}
+
+.rank__match,
+.rank__table{
+    position: absolute;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.rank__match{
+    transform: rotateY(180deg);
+}
+
+.rank__content-box.active .rank__content{
+    transform: rotateY(180deg);
+}

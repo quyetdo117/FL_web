@@ -1,0 +1,11 @@
+export {default as NavBar} from "./NavBar";
+export {default as Main} from "./Main";
+export {default as Footer} from './Footer'
+export {default as HomePage} from './pages/Home/Home'
+export {default as MemberPage} from './pages/Member/Member'
+export {default as ProductPage} from './pages/Product/Product'
+export {default as ProductInfo} from './pages/Product/ProductInfo'
+export {default as CartPage} from './pages/Cart/Cart'
+export {default as RankPage} from './pages/Rank/Rank'
+export {default as NewsPage} from './pages/News/News'
+export {default as NewsInfo} from './pages/News/NewsInfo'

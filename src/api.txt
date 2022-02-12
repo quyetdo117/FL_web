@@ -1,0 +1,334 @@
+//product
+[
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/Basic-Tee-Be-456x500.jpg",
+     "name": "Áo thun cơ bản",
+     "color": "Màu Be",
+     "printing": "In PET & Truyền nhiệt",
+     "material": "100% cotton",
+     "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "price": "349000",
+     "id": "1"
+    },
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/Basic-Tee-Black-456x500.jpg",
+     "name": "Áo thun cơ bản",
+     "color": "Màu đen",
+     "printing": "In PET & Truyền nhiệt",
+     "material": "100% cotton",
+     "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "price": "349000",
+     "id": "2"
+    },
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/Big-Logo-T-shirt-Black-456x500.jpg",
+     "name": "Áo phông có LOGO lớn",
+     "color": "Màu đen",
+     "printing": "In PET & Truyền nhiệt",
+     "material": "100% cotton",
+     "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "price": "399000",
+     "id": "3"
+    },
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/Big-Logo-T-shirt-White-456x500.jpg",
+     "name": "Áo phông có LOGO lớn",
+     "color": "Màu trắng",
+     "printing": "In PET & Truyền nhiệt",
+     "material": "100% cotton",
+     "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "price": "399000",
+     "id": "4"
+    },
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/2021-Jacket-456x500.jpeg",
+     "name": "Áo khoác chính thức 2021",
+     "color": "Màu đen",
+     "printing": "In PET & Truyền nhiệt",
+     "material": "100% cotton",
+     "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "price": "499000",
+     "id": "5"
+    },
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/Team-Flash-Signature-T-shirt-456x500.jpg",
+     "name": "Áo phông có chữ ký Team Flash",
+     "color": "Màu đen",
+     "printing": "In PET & Truyền nhiệt",
+     "material": "100% cotton",
+     "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "price": "549000",
+     "id": "6"
+    },
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/Basic-Cap-456x500.jpg",
+     "name": "Cap cơ bản",
+     "color": "Màu đen",
+     "printing": "In PET & Truyền nhiệt",
+     "material": "100% cotton",
+     "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "price": "150000",
+     "id": "7"
+    },
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/Key-Chain-456x500.jpg",
+     "name": "Móc chìa khóa",
+     "color": "Màu đen",
+     "printing": "In PET & Truyền nhiệt",
+     "material": "100% cotton",
+     "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "price": "150000",
+     "id": "8"
+    },
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/Wristband-Black-456x500.jpg",
+     "name": "Vòng tay",
+     "color": "Màu đen",
+     "printing": "In PET & Truyền nhiệt",
+     "material": "100% cotton",
+     "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "price": "50000",
+     "id": "9"
+    },
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/Wristband-Orange-456x500.jpg",
+     "name": "Vòng tay",
+     "color": "Màu cam",
+     "printing": "In PET & Truyền nhiệt",
+     "material": "100% cotton",
+     "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "price": "50000",
+     "id": "10"
+    },
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/MKGH-FaceMask-3D--456x500.jpg",
+     "name": "Mặt nạ MKGH 3D",
+     "color": "Màu đen",
+     "printing": "In PET & Truyền nhiệt",
+     "material": "100% cotton",
+     "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "price": "59000",
+     "id": "11"
+    }
+]
+
+////cart
+[
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/Basic-Tee-Black-456x500.jpg",
+     "name": "Áo thun cơ bản",
+     "color": "Màu đen",
+     "size": "L",
+     "quantity": 3,
+     "idProduct": "2",
+     "id": "1",
+     "price": "349000"
+    },
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/Big-Logo-T-shirt-White-456x500.jpg",
+     "name": "Áo phông có LOGO lớn",
+     "color": "Màu trắng",
+     "size": "S",
+     "quantity": 1,
+     "idProduct": "4",
+     "id": "2",
+     "price": "399000"
+    },
+    {
+     "src": "https://secureservercdn.net/45.40.145.201/kxr.369.myftpupload.com/wp-content/uploads/2021/08/Basic-Cap-456x500.jpg",
+     "name": "Cap cơ bản",
+     "color": "Màu đen",
+     "size": "M",
+     "quantity": 3,
+     "idProduct": "7",
+     "id": "3",
+     "price": "150000"
+    }
+   ]
+
+
+//news
+
+[
+ {
+  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/272105765_1285857875226386_6849902808695914027_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GFavMBPz1xsAX82HVU0&_nc_oc=AQmtd6qY511NKbA3TffiNT9t7ni6A1_3B_8NmYcYu3szm07ug1VquTAeluhQMYqH_dNdoMXLKchbtQmyLbMo3aJG&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9Ece3V99hAxxi9jzS9Jmk-3a_tz5MJK6XnHFFk-n8ukQ&oe=61F12AF0",
+  "title": "WELCOME RAINER - KÍCH HOẠT BOM TẤN",
+  "content": [
+   "Rainer (RN) chính thức trở thành Huấn luyện viên của Team Flash. Đây chính là sự đầu tư mạnh tay, thể hiện sự quyết tâm vô địch của Team Flash cho tất cả giải đấu quan trọng trong năm 2022.",
+   "Trong suốt sự nghiệp HLV của mình, RN đã từng đạt được 2 chức vô địch thế giới là AWC 2018 (AHQ) và AIC 2020 (MAD). Bên cạnh đó, RN cũng có 2 lần vô địch GCS mùa hè 2018 và GCS mùa hè 2020. ",
+   "Nói cách khác, RN dẫn dắt đội tuyển nào, đội tuyển đó sẽ vô địch và đạt được rất nhiều thành tựu lớn với bộ môn liên quân.",
+   "Từng là kỳ phùng địch thủ của Team Flash trong quá khứ, nay Rainer sẽ là mảnh ghép quan trọng để giúp \"binh đoàn áo cam\" tìm lại đỉnh cao."
+  ],
+  "id": "1"
+ },
+ {
+  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/271758583_1285857925226381_7231710439933737978_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GacqKVvH9OAAX-mQDj-&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9QMF8_05ZuzuMuB8UU-M5VDxoOoecaN_AflzkM3qWnZA&oe=61F09BFD",
+  "title": "TEAM FLASH LIÊN QUÂN MOBILE TUYỂN DỤNG THÀNH VIÊN",
+  "content": [
+   "Team Flash Liên Quân Mobile chính thức tìm kiếm tài năng trẻ ở mọi vị trí.",
+   "Điều kiện: trên 17 tuổi",
+   "Mức rank: Thách đấu Việt / Đài Loan / Thái Lan"
+  ],
+  "id": "2"
+ },
+ {
+  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/272105765_1285857875226386_6849902808695914027_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GFavMBPz1xsAX82HVU0&_nc_oc=AQmtd6qY511NKbA3TffiNT9t7ni6A1_3B_8NmYcYu3szm07ug1VquTAeluhQMYqH_dNdoMXLKchbtQmyLbMo3aJG&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9Ece3V99hAxxi9jzS9Jmk-3a_tz5MJK6XnHFFk-n8ukQ&oe=61F12AF0",
+  "title": "WELCOME RAINER - KÍCH HOẠT BOM TẤN",
+  "content": [
+   "Rainer (RN) chính thức trở thành Huấn luyện viên của Team Flash. Đây chính là sự đầu tư mạnh tay, thể hiện sự quyết tâm vô địch của Team Flash cho tất cả giải đấu quan trọng trong năm 2022.",
+   "Trong suốt sự nghiệp HLV của mình, RN đã từng đạt được 2 chức vô địch thế giới là AWC 2018 (AHQ) và AIC 2020 (MAD). Bên cạnh đó, RN cũng có 2 lần vô địch GCS mùa hè 2018 và GCS mùa hè 2020. ",
+   "Nói cách khác, RN dẫn dắt đội tuyển nào, đội tuyển đó sẽ vô địch và đạt được rất nhiều thành tựu lớn với bộ môn liên quân.",
+   "Từng là kỳ phùng địch thủ của Team Flash trong quá khứ, nay Rainer sẽ là mảnh ghép quan trọng để giúp \"binh đoàn áo cam\" tìm lại đỉnh cao."
+  ],
+  "id": "3"
+ },
+ {
+  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/271758583_1285857925226381_7231710439933737978_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GacqKVvH9OAAX-mQDj-&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9QMF8_05ZuzuMuB8UU-M5VDxoOoecaN_AflzkM3qWnZA&oe=61F09BFD",
+  "title": "TEAM FLASH LIÊN QUÂN MOBILE TUYỂN DỤNG THÀNH VIÊN",
+  "content": [
+   "Team Flash Liên Quân Mobile chính thức tìm kiếm tài năng trẻ ở mọi vị trí.",
+   "Điều kiện: trên 17 tuổi",
+   "Mức rank: Thách đấu Việt / Đài Loan / Thái Lan"
+  ],
+  "id": "4"
+ },
+ {
+  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/272105765_1285857875226386_6849902808695914027_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GFavMBPz1xsAX82HVU0&_nc_oc=AQmtd6qY511NKbA3TffiNT9t7ni6A1_3B_8NmYcYu3szm07ug1VquTAeluhQMYqH_dNdoMXLKchbtQmyLbMo3aJG&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9Ece3V99hAxxi9jzS9Jmk-3a_tz5MJK6XnHFFk-n8ukQ&oe=61F12AF0",
+  "title": "WELCOME RAINER - KÍCH HOẠT BOM TẤN",
+  "content": [
+   "Rainer (RN) chính thức trở thành Huấn luyện viên của Team Flash. Đây chính là sự đầu tư mạnh tay, thể hiện sự quyết tâm vô địch của Team Flash cho tất cả giải đấu quan trọng trong năm 2022.",
+   "Trong suốt sự nghiệp HLV của mình, RN đã từng đạt được 2 chức vô địch thế giới là AWC 2018 (AHQ) và AIC 2020 (MAD). Bên cạnh đó, RN cũng có 2 lần vô địch GCS mùa hè 2018 và GCS mùa hè 2020. ",
+   "Nói cách khác, RN dẫn dắt đội tuyển nào, đội tuyển đó sẽ vô địch và đạt được rất nhiều thành tựu lớn với bộ môn liên quân.",
+   "Từng là kỳ phùng địch thủ của Team Flash trong quá khứ, nay Rainer sẽ là mảnh ghép quan trọng để giúp \"binh đoàn áo cam\" tìm lại đỉnh cao."
+  ],
+  "id": "5"
+ },
+ {
+  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/271758583_1285857925226381_7231710439933737978_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GacqKVvH9OAAX-mQDj-&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9QMF8_05ZuzuMuB8UU-M5VDxoOoecaN_AflzkM3qWnZA&oe=61F09BFD",
+  "title": "TEAM FLASH LIÊN QUÂN MOBILE TUYỂN DỤNG THÀNH VIÊN",
+  "content": [
+   "Team Flash Liên Quân Mobile chính thức tìm kiếm tài năng trẻ ở mọi vị trí.",
+   "Điều kiện: trên 17 tuổi",
+   "Mức rank: Thách đấu Việt / Đài Loan / Thái Lan"
+  ],
+  "id": "6"
+ },
+ {
+  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/272105765_1285857875226386_6849902808695914027_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GFavMBPz1xsAX82HVU0&_nc_oc=AQmtd6qY511NKbA3TffiNT9t7ni6A1_3B_8NmYcYu3szm07ug1VquTAeluhQMYqH_dNdoMXLKchbtQmyLbMo3aJG&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9Ece3V99hAxxi9jzS9Jmk-3a_tz5MJK6XnHFFk-n8ukQ&oe=61F12AF0",
+  "title": "WELCOME RAINER - KÍCH HOẠT BOM TẤN",
+  "content": [
+   "Rainer (RN) chính thức trở thành Huấn luyện viên của Team Flash. Đây chính là sự đầu tư mạnh tay, thể hiện sự quyết tâm vô địch của Team Flash cho tất cả giải đấu quan trọng trong năm 2022.",
+   "Trong suốt sự nghiệp HLV của mình, RN đã từng đạt được 2 chức vô địch thế giới là AWC 2018 (AHQ) và AIC 2020 (MAD). Bên cạnh đó, RN cũng có 2 lần vô địch GCS mùa hè 2018 và GCS mùa hè 2020. ",
+   "Nói cách khác, RN dẫn dắt đội tuyển nào, đội tuyển đó sẽ vô địch và đạt được rất nhiều thành tựu lớn với bộ môn liên quân.",
+   "Từng là kỳ phùng địch thủ của Team Flash trong quá khứ, nay Rainer sẽ là mảnh ghép quan trọng để giúp \"binh đoàn áo cam\" tìm lại đỉnh cao."
+  ],
+  "id": "7"
+ },
+ {
+  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/271758583_1285857925226381_7231710439933737978_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GacqKVvH9OAAX-mQDj-&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9QMF8_05ZuzuMuB8UU-M5VDxoOoecaN_AflzkM3qWnZA&oe=61F09BFD",
+  "title": "TEAM FLASH LIÊN QUÂN MOBILE TUYỂN DỤNG THÀNH VIÊN",
+  "content": [
+   "Team Flash Liên Quân Mobile chính thức tìm kiếm tài năng trẻ ở mọi vị trí.",
+   "Điều kiện: trên 17 tuổi",
+   "Mức rank: Thách đấu Việt / Đài Loan / Thái Lan"
+  ],
+  "id": "8"
+ },
+ {
+  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/272105765_1285857875226386_6849902808695914027_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GFavMBPz1xsAX82HVU0&_nc_oc=AQmtd6qY511NKbA3TffiNT9t7ni6A1_3B_8NmYcYu3szm07ug1VquTAeluhQMYqH_dNdoMXLKchbtQmyLbMo3aJG&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9Ece3V99hAxxi9jzS9Jmk-3a_tz5MJK6XnHFFk-n8ukQ&oe=61F12AF0",
+  "title": "WELCOME RAINER - KÍCH HOẠT BOM TẤN",
+  "content": [
+   "Rainer (RN) chính thức trở thành Huấn luyện viên của Team Flash. Đây chính là sự đầu tư mạnh tay, thể hiện sự quyết tâm vô địch của Team Flash cho tất cả giải đấu quan trọng trong năm 2022.",
+   "Trong suốt sự nghiệp HLV của mình, RN đã từng đạt được 2 chức vô địch thế giới là AWC 2018 (AHQ) và AIC 2020 (MAD). Bên cạnh đó, RN cũng có 2 lần vô địch GCS mùa hè 2018 và GCS mùa hè 2020. ",
+   "Nói cách khác, RN dẫn dắt đội tuyển nào, đội tuyển đó sẽ vô địch và đạt được rất nhiều thành tựu lớn với bộ môn liên quân.",
+   "Từng là kỳ phùng địch thủ của Team Flash trong quá khứ, nay Rainer sẽ là mảnh ghép quan trọng để giúp \"binh đoàn áo cam\" tìm lại đỉnh cao."
+  ],
+  "id": "9"
+ },
+ {
+  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/271758583_1285857925226381_7231710439933737978_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GacqKVvH9OAAX-mQDj-&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9QMF8_05ZuzuMuB8UU-M5VDxoOoecaN_AflzkM3qWnZA&oe=61F09BFD",
+  "title": "TEAM FLASH LIÊN QUÂN MOBILE TUYỂN DỤNG THÀNH VIÊN",
+  "content": [
+   "Team Flash Liên Quân Mobile chính thức tìm kiếm tài năng trẻ ở mọi vị trí.",
+   "Điều kiện: trên 17 tuổi",
+   "Mức rank: Thách đấu Việt / Đài Loan / Thái Lan"
+  ],
+  "id": "10"
+ },
+ {
+  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/272105765_1285857875226386_6849902808695914027_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GFavMBPz1xsAX82HVU0&_nc_oc=AQmtd6qY511NKbA3TffiNT9t7ni6A1_3B_8NmYcYu3szm07ug1VquTAeluhQMYqH_dNdoMXLKchbtQmyLbMo3aJG&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9Ece3V99hAxxi9jzS9Jmk-3a_tz5MJK6XnHFFk-n8ukQ&oe=61F12AF0",
+  "title": "WELCOME RAINER - KÍCH HOẠT BOM TẤN",
+  "content": [
+   "Rainer (RN) chính thức trở thành Huấn luyện viên của Team Flash. Đây chính là sự đầu tư mạnh tay, thể hiện sự quyết tâm vô địch của Team Flash cho tất cả giải đấu quan trọng trong năm 2022.",
+   "Trong suốt sự nghiệp HLV của mình, RN đã từng đạt được 2 chức vô địch thế giới là AWC 2018 (AHQ) và AIC 2020 (MAD). Bên cạnh đó, RN cũng có 2 lần vô địch GCS mùa hè 2018 và GCS mùa hè 2020. ",
+   "Nói cách khác, RN dẫn dắt đội tuyển nào, đội tuyển đó sẽ vô địch và đạt được rất nhiều thành tựu lớn với bộ môn liên quân.",
+   "Từng là kỳ phùng địch thủ của Team Flash trong quá khứ, nay Rainer sẽ là mảnh ghép quan trọng để giúp \"binh đoàn áo cam\" tìm lại đỉnh cao."
+  ],
+  "id": "11"
+ },
+ {
+  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/271758583_1285857925226381_7231710439933737978_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GacqKVvH9OAAX-mQDj-&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9QMF8_05ZuzuMuB8UU-M5VDxoOoecaN_AflzkM3qWnZA&oe=61F09BFD",
+  "title": "TEAM FLASH LIÊN QUÂN MOBILE TUYỂN DỤNG THÀNH VIÊN",
+  "content": [
+   "Team Flash Liên Quân Mobile chính thức tìm kiếm tài năng trẻ ở mọi vị trí.",
+   "Điều kiện: trên 17 tuổi",
+   "Mức rank: Thách đấu Việt / Đài Loan / Thái Lan"
+  ],
+  "id": "12"
+ }
+]

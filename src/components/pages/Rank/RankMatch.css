@@ -1,0 +1,81 @@
+.match__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.match__box-item{
+    position: relative;
+    border: 2px solid rgb(241, 97, 14);
+    transform: skewX(-20deg);
+    width: 942px;
+    max-width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.match__item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: skewX(20deg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.match__team{
+    display: flex;
+    flex: 0 0 45%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.match__team img{
+    height: 40px;
+}
+
+.match__team-name,
+.match__team-point{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.match__mid{
+    position: relative;
+    width: 2px;
+    height: 100%;
+    transform: skewX(-20deg);
+    background-color: rgb(241, 97, 14);
+}
+
+.match__mid::after{
+    content: 'VS';
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 2px 2px black;
+}
+
+.match__time{
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 12px;
+    font-weight: 900;
+    text-shadow: 2px 2px #fff;
+    display: block;
+}

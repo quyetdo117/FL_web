@@ -1,0 +1,43 @@
+.product-item__container{
+    margin-top: 20px;
+}
+
+.product-item__img{
+    padding-top: 109.655%;
+    position: relative;
+}
+
+.product-item__img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.product-item__info--basic h2{
+    font-size: 18px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.product-item__info--basic tr{
+    height: 38px;
+}
+
+.product-item__btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.info-basic__title{
+    width: 120px;
+    line-height: 18px;
+}
+
+.info-basic__content{
+    font-weight: 600;
+    text-align: justify;
+}

@@ -1,0 +1,59 @@
+.rank__table table{
+    width: 100%;
+}
+
+.rank__table tr{
+    display: flex;
+}
+
+.rank__table td{
+    flex: 1;
+    height: 28px;
+    line-height: 28px;
+    border-width: 1px 0 0 1px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.rank__table tr:last-child td{
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.rank__table tr td:last-child{
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.rank__table tr:last-child td:last-child{
+    border: 1px solid #fff;
+}
+
+.rank__name-col{
+    background-color: #000;
+    color: #fff;
+}
+
+.rank__team.top-1,
+.rank__team.top-2{
+    background-color: rgb(84, 243, 52);
+}
+
+.rank__team.top-3,
+.rank__team.top-4{
+    background-color: rgb(151, 245, 115);
+}
+
+.rank__team.top-5,
+.rank__team.top-6{
+    background-color: rgb(230, 228, 227);
+}
+
+.rank__team.top-7{
+    background-color: rgb(245, 123, 75);
+}
+.rank__team.top-8{
+    background-color: rgb(240, 48, 23);
+}
