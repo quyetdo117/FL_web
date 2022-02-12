@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FL_web/static/css/main.8034f8c1.css",
+    "main.js": "/FL_web/static/js/main.aa0819af.js",
+    "static/js/787.d5b07f49.chunk.js": "/FL_web/static/js/787.d5b07f49.chunk.js",
+    "index.html": "/FL_web/index.html",
+    "main.8034f8c1.css.map": "/FL_web/static/css/main.8034f8c1.css.map",
+    "main.aa0819af.js.map": "/FL_web/static/js/main.aa0819af.js.map",
+    "787.d5b07f49.chunk.js.map": "/FL_web/static/js/787.d5b07f49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8034f8c1.css",
+    "static/js/main.aa0819af.js"
+  ]
+}
