@@ -48,8 +48,13 @@ function Cart() {
                                             }
                                         </span>
                                     </div>
-                                    <div className='cart__btn' onClick={() => alert('Bạn đẫ hết tiền !!!!!!')}>
-                                        <Button>Thanh toán</Button>
+                                    <div
+                                        className='cart__btn'
+                                    >
+                                        <Button
+                                            disabled={!!!(stateG_Data.listCart.length)}
+                                            toLink={ !!(stateG_Data.listCart.length) && '/buyerInfo' }
+                                        >Đặt hàng</Button>
                                     </div>
                                 </div>
                             </div>

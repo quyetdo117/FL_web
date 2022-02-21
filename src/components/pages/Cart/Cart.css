@@ -30,6 +30,8 @@
 .cart__btn{
     text-align: center;
     margin-top: 40px;
+    display: block;
+    cursor: auto;
 }
 
 .cart__total-price{

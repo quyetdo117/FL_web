@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import './Main.css'
 import {CartPage, NewsPage, NewsInfo, ProductInfo, ProductPage, RankPage, HomePage, MemberPage} from './index'
 import { useStore } from '../store';
+import BuyerInfo from './pages/BuyerInfo/BuyerInfo';
 
 function Main() {
   const [stateG_Data] = useStore();
@@ -25,6 +26,7 @@ function Main() {
                   ))
                 }
                 <Route path='/cart' element={<CartPage />}></Route>
+                <Route path='/buyerInfo' element={<BuyerInfo />}></Route>
                 <Route path='/rank' element={<RankPage />}></Route>
                 <Route path='/news' element={<NewsPage />}></Route>
                 {

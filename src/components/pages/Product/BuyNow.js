@@ -100,8 +100,8 @@ function BuyNow({onHidden, dataProduct}) {
                         </div>
                     </div>
                 </div>
-                <div className='buy-now__btn' onClick={setCart}>
-                    <Button>Thêm vào giỏ hàng</Button>
+                <div className='buy-now__btn'>
+                    <Button onClick={setCart}>Thêm vào giỏ hàng</Button>
                 </div>
             </div>
         </div>

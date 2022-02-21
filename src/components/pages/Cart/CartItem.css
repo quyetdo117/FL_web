@@ -36,13 +36,14 @@
 .cart__name{
     font-size: 16px;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 28px;
 }
 
 .cart__name{
     text-decoration: none;
     color: #000;
-    line-height: 28px;
+    height: 28px;
+    overflow: hidden;
 }
 
 .cart__name:hover{

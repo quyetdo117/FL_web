@@ -136,8 +136,8 @@ function ProductInfo({dataItem}) {
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <div className='product-item__btn' onClick={setCart}>
-                                        <Button>Thêm vào giỏ hàng</Button>
+                                    <div className='product-item__btn'>
+                                        <Button onClick={setCart}>Thêm vào giỏ hàng</Button>
                                     </div>
                                 </div>
                             </div>
