@@ -206,39 +206,39 @@
 
 [
  {
-  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/272105765_1285857875226386_6849902808695914027_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GFavMBPz1xsAX82HVU0&_nc_oc=AQmtd6qY511NKbA3TffiNT9t7ni6A1_3B_8NmYcYu3szm07ug1VquTAeluhQMYqH_dNdoMXLKchbtQmyLbMo3aJG&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9Ece3V99hAxxi9jzS9Jmk-3a_tz5MJK6XnHFFk-n8ukQ&oe=61F12AF0",
-  "title": "WELCOME RAINER - KÍCH HOẠT BOM TẤN",
+  "src": "https://kenh14cdn.com/thumb_w/620/203336854389633024/2022/2/20/photo-1-1645375939177878203354.jpg",
+  "title": "ProE lên tiếng bảo vệ đàn em sau thất bại của Team Flash: \"Xin hãy để họ phát triển\"",
   "content": [
-   "Rainer (RN) chính thức trở thành Huấn luyện viên của Team Flash. Đây chính là sự đầu tư mạnh tay, thể hiện sự quyết tâm vô địch của Team Flash cho tất cả giải đấu quan trọng trong năm 2022.",
-   "Trong suốt sự nghiệp HLV của mình, RN đã từng đạt được 2 chức vô địch thế giới là AWC 2018 (AHQ) và AIC 2020 (MAD). Bên cạnh đó, RN cũng có 2 lần vô địch GCS mùa hè 2018 và GCS mùa hè 2020. ",
-   "Nói cách khác, RN dẫn dắt đội tuyển nào, đội tuyển đó sẽ vô địch và đạt được rất nhiều thành tựu lớn với bộ môn liên quân.",
-   "Từng là kỳ phùng địch thủ của Team Flash trong quá khứ, nay Rainer sẽ là mảnh ghép quan trọng để giúp \"binh đoàn áo cam\" tìm lại đỉnh cao."
+   "Team Flash đã thất thủ 0-3 trước Saigon Phantom hừng hực sức trẻ và kỹ năng. Đây dù là kết quả không quá bất ngờ nhưng thế trận lấn lướt hoàn toàn suốt cả 3 ván đấu khiến Team Flash cũng nhận về không ít lời chỉ trích và châm chọc từ cộng đồng.",
+   "Sau trận thua này, ProE dù không ra sân thi đấu nhưng cũng đã lên tiếng bảo vệ cho lứa đàn em của mình. Trên trang fanpage của mình, trợ thủ kỳ cựu của Team Flash đã chia sẻ: \"Dù gì họ cũng là người mới, xin hãy để họ được phát triển\".",
+   "Rõ ràng, việc làm của ProE là rất kịp thời và chính xác bởi Team Flash đã nhận về không ít chỉ trích sau trận đấu này. Dĩ nhiên với những người cũ, đã có thời gian dài như Xuân Bách hay Maximus thì họ đã khá quen thuộc. Nhưng với những tân binh như Case, Kuga hay Medusa có mùa đầu tiên thi đấu trong 1 đội tuyển nhiều fan nhưng cũng áp lực lớn như Team Flash rất dễ dẫn đến bị ảnh hưởng tâm lý, điều rất quan trọng đối với những tài năng trẻ này.",
+   "Việc làm của ProE đã được cộng đồng Liên Quân hưởng ứng và những bình luận chửi bới, toxic cũng giảm rõ rệt trên các trang fanpage liên quan. Qua đó, có thể thấy được sức ảnh hưởng của người chơi trợ thủ này là khủng đến cỡ nào."
   ],
   "id": "1"
  },
  {
-  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/271758583_1285857925226381_7231710439933737978_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GacqKVvH9OAAX-mQDj-&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9QMF8_05ZuzuMuB8UU-M5VDxoOoecaN_AflzkM3qWnZA&oe=61F09BFD",
-  "title": "TEAM FLASH LIÊN QUÂN MOBILE TUYỂN DỤNG THÀNH VIÊN",
+  "src": "https://cdn-img.thethao247.vn/origin_865x0/storage/files/duyenhai/2022/01/18/271781724_504165884399053_3008140469069256605_n-1642523811.jpg",
+  "title": "Câu hỏi lớn cho Team Flash: Làm gì để tìm lại ánh hào quang từ ngôi vương Đấu Trường Danh Vọng?",
   "content": [
-   "Team Flash Liên Quân Mobile chính thức tìm kiếm tài năng trẻ ở mọi vị trí.",
-   "Điều kiện: trên 17 tuổi",
-   "Mức rank: Thách đấu Việt / Đài Loan / Thái Lan"
+   "Đấu trường Danh vọng (ĐTDV) mùa Xuân 2022 đã khởi tranh và trải qua những tuần thi đấu đầu tiên đầy hấp dẫn và bất ngờ. Chúng ta chứng kiến Saigon Phantom (SGP) và V Gaming (VGM) mang đến thứ sức mạnh đầy hủy diệt với 2 chiến thắng giòn giã 3-0. Chúng ta có một tân binh \"ngựa ô\" Tân Voi Gaming sẵn sàng thi đấu sòng phẳng và quật ngã những cái tên quen thuộc của nhiều mùa giải ĐTDV. Chúng ta thấy game thủ Việt Nam đã chuẩn bị vững vàng thế nào cho một meta mới, từ kỹ năng cho đến tư duy chiến thuật.",
+   "Team Flash, họ giống như Manchester United của bóng đá tại Liên quân Mobile (LQMB) vậy: là đội tuyển giàu thành tích nhất với 6 lần vô địch ĐTDV, 2 lần liên tiếp vô địch giải quốc tế, nhưng những gì họ trình diễn trong những mùa giải gần đây thì chẳng tương xứng chút nào. Ngay tại ĐTDV Xuân 2022, sau chiến thắng giòn giã 3-0 trước FAP Esports ở tuần thi đấu đầu tiên lại là một trận thua với tỉ số tương tự trước VGM, theo cái cách bị nhiều người gọi là bạc nhược và không có cửa bật.",
+   "Vấn đề của Team Flash thực chất không mới. Kể từ sau khi lên ngôi tại ĐTDV mùa Xuân 2020, phong độ của họ trồi sụt thất thường. Họ không thể lên ngôi vô địch thêm một giải quốc tế nào nữa, rồi về top 3 ở ĐTDV và để mất ngôi vương vào tay SGP. Chức vô địch ĐTDV mùa Xuân 2021 tưởng như đánh dấu cho sự trở lại của nhà vua, nhưng hóa ra mọi chuyện chỉ ngày càng xấu đi. Họ chẳng qua nổi vòng bảng của AIC và AWC 2021, và lại về top 3, mất ngôi vương ĐTDV mùa Đông 2021 vào tay SGP.",
+   "Mùa giải mới, Team Flash mang đến bộ mặt khác biệt với những cái tên mới mẻ. Nhưng trận thua trắng trước VGM khiến sự hy vọng dành cho họ vừa chớm nở đã vụt tắt. Giờ đây, người hâm mộ nhìn vào Flash như một mớ hỗn độn với câu hỏi lớn nhất mà chính Flash cũng chưa thể trả lời được: Phải làm gì mới đòi lại được ngôi vương?"
   ],
   "id": "2"
  },
  {
-  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/272105765_1285857875226386_6849902808695914027_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GFavMBPz1xsAX82HVU0&_nc_oc=AQmtd6qY511NKbA3TffiNT9t7ni6A1_3B_8NmYcYu3szm07ug1VquTAeluhQMYqH_dNdoMXLKchbtQmyLbMo3aJG&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9Ece3V99hAxxi9jzS9Jmk-3a_tz5MJK6XnHFFk-n8ukQ&oe=61F12AF0",
-  "title": "WELCOME RAINER - KÍCH HOẠT BOM TẤN",
+  "src": "https://kenh14cdn.com/thumb_w/620/203336854389633024/2022/2/18/photo-1-16451988025291516081634.jpg",
+  "title": "Team Flash giải mã \"ngựa ô\", tân binh Kuga vừa debut đã nhận mưa lời khen từ khán giả",
   "content": [
-   "Rainer (RN) chính thức trở thành Huấn luyện viên của Team Flash. Đây chính là sự đầu tư mạnh tay, thể hiện sự quyết tâm vô địch của Team Flash cho tất cả giải đấu quan trọng trong năm 2022.",
-   "Trong suốt sự nghiệp HLV của mình, RN đã từng đạt được 2 chức vô địch thế giới là AWC 2018 (AHQ) và AIC 2020 (MAD). Bên cạnh đó, RN cũng có 2 lần vô địch GCS mùa hè 2018 và GCS mùa hè 2020. ",
-   "Nói cách khác, RN dẫn dắt đội tuyển nào, đội tuyển đó sẽ vô địch và đạt được rất nhiều thành tựu lớn với bộ môn liên quân.",
-   "Từng là kỳ phùng địch thủ của Team Flash trong quá khứ, nay Rainer sẽ là mảnh ghép quan trọng để giúp \"binh đoàn áo cam\" tìm lại đỉnh cao."
+   "Tuần đấu thứ 2 của ĐTDV đã diễn ra một cách khá hấp dẫn và trận đấu được nhiều người mong chờ: Team Flash đối đầu Tân Voi Gaming - \"ngựa ô\" của mùa giải với nhiều chiến thắng trước các đội tuyển kỳ cựu. Team Flash tiếp tục ra quân với đội hình mới và 2 tân binh vừa có mặt trong kỳ chuyển nhượng vừa qua cũng có màn debut chính thức ở trận đấu này.",
+   "Ở ván đấu đầu tiên, Team Flash đã gặp khá nhiều khó khăn trước 1 đội hình cấu máu khủng với Yue và Elsu của Tân Voi Gaming. Tuy nhiên, với kinh nghiệm của mình thì Xuân Bách và các đồng đội đã có được ván thắng mở màn.",
+   "Hai ván đấu tiếp theo, với tâm lý thoải mái Team Flash đã snowball thế trận khá dễ dàng. Cùng với đó, sự tự tin và lối chơi hổ báo của Tân Voi đã khiến họ bị rơi vào thế khó. Cuối cùng, Team Flash có được chiến thắng 3-0 để vươn lên phía trên của BXH"
   ],
   "id": "3"
  },
  {
-  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/271758583_1285857925226381_7231710439933737978_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GacqKVvH9OAAX-mQDj-&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9QMF8_05ZuzuMuB8UU-M5VDxoOoecaN_AflzkM3qWnZA&oe=61F09BFD",
+  "src": "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/12/20/photo-1-1639999252047583589377.jpg",
   "title": "TEAM FLASH LIÊN QUÂN MOBILE TUYỂN DỤNG THÀNH VIÊN",
   "content": [
    "Team Flash Liên Quân Mobile chính thức tìm kiếm tài năng trẻ ở mọi vị trí.",
@@ -248,7 +248,7 @@
   "id": "4"
  },
  {
-  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/272105765_1285857875226386_6849902808695914027_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GFavMBPz1xsAX82HVU0&_nc_oc=AQmtd6qY511NKbA3TffiNT9t7ni6A1_3B_8NmYcYu3szm07ug1VquTAeluhQMYqH_dNdoMXLKchbtQmyLbMo3aJG&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9Ece3V99hAxxi9jzS9Jmk-3a_tz5MJK6XnHFFk-n8ukQ&oe=61F12AF0",
+  "src": "https://i.ytimg.com/vi/A0YS41KyxaU/maxresdefault.jpg",
   "title": "WELCOME RAINER - KÍCH HOẠT BOM TẤN",
   "content": [
    "Rainer (RN) chính thức trở thành Huấn luyện viên của Team Flash. Đây chính là sự đầu tư mạnh tay, thể hiện sự quyết tâm vô địch của Team Flash cho tất cả giải đấu quan trọng trong năm 2022.",
@@ -259,17 +259,18 @@
   "id": "5"
  },
  {
-  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/271758583_1285857925226381_7231710439933737978_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GacqKVvH9OAAX-mQDj-&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9QMF8_05ZuzuMuB8UU-M5VDxoOoecaN_AflzkM3qWnZA&oe=61F09BFD",
-  "title": "TEAM FLASH LIÊN QUÂN MOBILE TUYỂN DỤNG THÀNH VIÊN",
+  "src": "https://kenh14cdn.com/thumb_w/620/203336854389633024/2022/2/20/photo-1-1645375939177878203354.jpg",
+  "title": "ProE lên tiếng bảo vệ đàn em sau thất bại của Team Flash: \"Xin hãy để họ phát triển\"",
   "content": [
-   "Team Flash Liên Quân Mobile chính thức tìm kiếm tài năng trẻ ở mọi vị trí.",
-   "Điều kiện: trên 17 tuổi",
-   "Mức rank: Thách đấu Việt / Đài Loan / Thái Lan"
+   "Team Flash đã thất thủ 0-3 trước Saigon Phantom hừng hực sức trẻ và kỹ năng. Đây dù là kết quả không quá bất ngờ nhưng thế trận lấn lướt hoàn toàn suốt cả 3 ván đấu khiến Team Flash cũng nhận về không ít lời chỉ trích và châm chọc từ cộng đồng.",
+   "Sau trận thua này, ProE dù không ra sân thi đấu nhưng cũng đã lên tiếng bảo vệ cho lứa đàn em của mình. Trên trang fanpage của mình, trợ thủ kỳ cựu của Team Flash đã chia sẻ: \"Dù gì họ cũng là người mới, xin hãy để họ được phát triển\".",
+   "Rõ ràng, việc làm của ProE là rất kịp thời và chính xác bởi Team Flash đã nhận về không ít chỉ trích sau trận đấu này. Dĩ nhiên với những người cũ, đã có thời gian dài như Xuân Bách hay Maximus thì họ đã khá quen thuộc. Nhưng với những tân binh như Case, Kuga hay Medusa có mùa đầu tiên thi đấu trong 1 đội tuyển nhiều fan nhưng cũng áp lực lớn như Team Flash rất dễ dẫn đến bị ảnh hưởng tâm lý, điều rất quan trọng đối với những tài năng trẻ này.",
+   "Việc làm của ProE đã được cộng đồng Liên Quân hưởng ứng và những bình luận chửi bới, toxic cũng giảm rõ rệt trên các trang fanpage liên quan. Qua đó, có thể thấy được sức ảnh hưởng của người chơi trợ thủ này là khủng đến cỡ nào."
   ],
   "id": "6"
  },
  {
-  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/272105765_1285857875226386_6849902808695914027_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GFavMBPz1xsAX82HVU0&_nc_oc=AQmtd6qY511NKbA3TffiNT9t7ni6A1_3B_8NmYcYu3szm07ug1VquTAeluhQMYqH_dNdoMXLKchbtQmyLbMo3aJG&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9Ece3V99hAxxi9jzS9Jmk-3a_tz5MJK6XnHFFk-n8ukQ&oe=61F12AF0",
+  "src": "https://i.ytimg.com/vi/A0YS41KyxaU/maxresdefault.jpg",
   "title": "WELCOME RAINER - KÍCH HOẠT BOM TẤN",
   "content": [
    "Rainer (RN) chính thức trở thành Huấn luyện viên của Team Flash. Đây chính là sự đầu tư mạnh tay, thể hiện sự quyết tâm vô địch của Team Flash cho tất cả giải đấu quan trọng trong năm 2022.",
@@ -280,17 +281,18 @@
   "id": "7"
  },
  {
-  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/271758583_1285857925226381_7231710439933737978_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GacqKVvH9OAAX-mQDj-&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9QMF8_05ZuzuMuB8UU-M5VDxoOoecaN_AflzkM3qWnZA&oe=61F09BFD",
-  "title": "TEAM FLASH LIÊN QUÂN MOBILE TUYỂN DỤNG THÀNH VIÊN",
+  "src": "https://cdn-img.thethao247.vn/origin_865x0/storage/files/duyenhai/2022/01/18/271781724_504165884399053_3008140469069256605_n-1642523811.jpg",
+  "title": "Câu hỏi lớn cho Team Flash: Làm gì để tìm lại ánh hào quang từ ngôi vương Đấu Trường Danh Vọng?",
   "content": [
-   "Team Flash Liên Quân Mobile chính thức tìm kiếm tài năng trẻ ở mọi vị trí.",
-   "Điều kiện: trên 17 tuổi",
-   "Mức rank: Thách đấu Việt / Đài Loan / Thái Lan"
+   "Đấu trường Danh vọng (ĐTDV) mùa Xuân 2022 đã khởi tranh và trải qua những tuần thi đấu đầu tiên đầy hấp dẫn và bất ngờ. Chúng ta chứng kiến Saigon Phantom (SGP) và V Gaming (VGM) mang đến thứ sức mạnh đầy hủy diệt với 2 chiến thắng giòn giã 3-0. Chúng ta có một tân binh \"ngựa ô\" Tân Voi Gaming sẵn sàng thi đấu sòng phẳng và quật ngã những cái tên quen thuộc của nhiều mùa giải ĐTDV. Chúng ta thấy game thủ Việt Nam đã chuẩn bị vững vàng thế nào cho một meta mới, từ kỹ năng cho đến tư duy chiến thuật.",
+   "Team Flash, họ giống như Manchester United của bóng đá tại Liên quân Mobile (LQMB) vậy: là đội tuyển giàu thành tích nhất với 6 lần vô địch ĐTDV, 2 lần liên tiếp vô địch giải quốc tế, nhưng những gì họ trình diễn trong những mùa giải gần đây thì chẳng tương xứng chút nào. Ngay tại ĐTDV Xuân 2022, sau chiến thắng giòn giã 3-0 trước FAP Esports ở tuần thi đấu đầu tiên lại là một trận thua với tỉ số tương tự trước VGM, theo cái cách bị nhiều người gọi là bạc nhược và không có cửa bật.",
+   "Vấn đề của Team Flash thực chất không mới. Kể từ sau khi lên ngôi tại ĐTDV mùa Xuân 2020, phong độ của họ trồi sụt thất thường. Họ không thể lên ngôi vô địch thêm một giải quốc tế nào nữa, rồi về top 3 ở ĐTDV và để mất ngôi vương vào tay SGP. Chức vô địch ĐTDV mùa Xuân 2021 tưởng như đánh dấu cho sự trở lại của nhà vua, nhưng hóa ra mọi chuyện chỉ ngày càng xấu đi. Họ chẳng qua nổi vòng bảng của AIC và AWC 2021, và lại về top 3, mất ngôi vương ĐTDV mùa Đông 2021 vào tay SGP.",
+   "Mùa giải mới, Team Flash mang đến bộ mặt khác biệt với những cái tên mới mẻ. Nhưng trận thua trắng trước VGM khiến sự hy vọng dành cho họ vừa chớm nở đã vụt tắt. Giờ đây, người hâm mộ nhìn vào Flash như một mớ hỗn độn với câu hỏi lớn nhất mà chính Flash cũng chưa thể trả lời được: Phải làm gì mới đòi lại được ngôi vương?"
   ],
   "id": "8"
  },
  {
-  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/272105765_1285857875226386_6849902808695914027_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GFavMBPz1xsAX82HVU0&_nc_oc=AQmtd6qY511NKbA3TffiNT9t7ni6A1_3B_8NmYcYu3szm07ug1VquTAeluhQMYqH_dNdoMXLKchbtQmyLbMo3aJG&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9Ece3V99hAxxi9jzS9Jmk-3a_tz5MJK6XnHFFk-n8ukQ&oe=61F12AF0",
+  "src": "https://i.ytimg.com/vi/A0YS41KyxaU/maxresdefault.jpg",
   "title": "WELCOME RAINER - KÍCH HOẠT BOM TẤN",
   "content": [
    "Rainer (RN) chính thức trở thành Huấn luyện viên của Team Flash. Đây chính là sự đầu tư mạnh tay, thể hiện sự quyết tâm vô địch của Team Flash cho tất cả giải đấu quan trọng trong năm 2022.",
@@ -301,17 +303,17 @@
   "id": "9"
  },
  {
-  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/271758583_1285857925226381_7231710439933737978_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GacqKVvH9OAAX-mQDj-&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9QMF8_05ZuzuMuB8UU-M5VDxoOoecaN_AflzkM3qWnZA&oe=61F09BFD",
-  "title": "TEAM FLASH LIÊN QUÂN MOBILE TUYỂN DỤNG THÀNH VIÊN",
+  "src": "https://kenh14cdn.com/thumb_w/620/203336854389633024/2022/2/18/photo-1-16451988025291516081634.jpg",
+  "title": "Team Flash giải mã \"ngựa ô\", tân binh Kuga vừa debut đã nhận mưa lời khen từ khán giả",
   "content": [
-   "Team Flash Liên Quân Mobile chính thức tìm kiếm tài năng trẻ ở mọi vị trí.",
-   "Điều kiện: trên 17 tuổi",
-   "Mức rank: Thách đấu Việt / Đài Loan / Thái Lan"
+   "Tuần đấu thứ 2 của ĐTDV đã diễn ra một cách khá hấp dẫn và trận đấu được nhiều người mong chờ: Team Flash đối đầu Tân Voi Gaming - \"ngựa ô\" của mùa giải với nhiều chiến thắng trước các đội tuyển kỳ cựu. Team Flash tiếp tục ra quân với đội hình mới và 2 tân binh vừa có mặt trong kỳ chuyển nhượng vừa qua cũng có màn debut chính thức ở trận đấu này.",
+   "Ở ván đấu đầu tiên, Team Flash đã gặp khá nhiều khó khăn trước 1 đội hình cấu máu khủng với Yue và Elsu của Tân Voi Gaming. Tuy nhiên, với kinh nghiệm của mình thì Xuân Bách và các đồng đội đã có được ván thắng mở màn.",
+   "Hai ván đấu tiếp theo, với tâm lý thoải mái Team Flash đã snowball thế trận khá dễ dàng. Cùng với đó, sự tự tin và lối chơi hổ báo của Tân Voi đã khiến họ bị rơi vào thế khó. Cuối cùng, Team Flash có được chiến thắng 3-0 để vươn lên phía trên của BXH"
   ],
   "id": "10"
  },
  {
-  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/272105765_1285857875226386_6849902808695914027_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GFavMBPz1xsAX82HVU0&_nc_oc=AQmtd6qY511NKbA3TffiNT9t7ni6A1_3B_8NmYcYu3szm07ug1VquTAeluhQMYqH_dNdoMXLKchbtQmyLbMo3aJG&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9Ece3V99hAxxi9jzS9Jmk-3a_tz5MJK6XnHFFk-n8ukQ&oe=61F12AF0",
+  "src": "https://i.ytimg.com/vi/A0YS41KyxaU/maxresdefault.jpg",
   "title": "WELCOME RAINER - KÍCH HOẠT BOM TẤN",
   "content": [
    "Rainer (RN) chính thức trở thành Huấn luyện viên của Team Flash. Đây chính là sự đầu tư mạnh tay, thể hiện sự quyết tâm vô địch của Team Flash cho tất cả giải đấu quan trọng trong năm 2022.",
@@ -322,12 +324,13 @@
   "id": "11"
  },
  {
-  "src": "https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-6/271758583_1285857925226381_7231710439933737978_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GacqKVvH9OAAX-mQDj-&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9QMF8_05ZuzuMuB8UU-M5VDxoOoecaN_AflzkM3qWnZA&oe=61F09BFD",
-  "title": "TEAM FLASH LIÊN QUÂN MOBILE TUYỂN DỤNG THÀNH VIÊN",
+  "src": "https://cdn-img.thethao247.vn/origin_865x0/storage/files/duyenhai/2022/01/18/271781724_504165884399053_3008140469069256605_n-1642523811.jpg",
+  "title": "Câu hỏi lớn cho Team Flash: Làm gì để tìm lại ánh hào quang từ ngôi vương Đấu Trường Danh Vọng?",
   "content": [
-   "Team Flash Liên Quân Mobile chính thức tìm kiếm tài năng trẻ ở mọi vị trí.",
-   "Điều kiện: trên 17 tuổi",
-   "Mức rank: Thách đấu Việt / Đài Loan / Thái Lan"
+   "Đấu trường Danh vọng (ĐTDV) mùa Xuân 2022 đã khởi tranh và trải qua những tuần thi đấu đầu tiên đầy hấp dẫn và bất ngờ. Chúng ta chứng kiến Saigon Phantom (SGP) và V Gaming (VGM) mang đến thứ sức mạnh đầy hủy diệt với 2 chiến thắng giòn giã 3-0. Chúng ta có một tân binh \"ngựa ô\" Tân Voi Gaming sẵn sàng thi đấu sòng phẳng và quật ngã những cái tên quen thuộc của nhiều mùa giải ĐTDV. Chúng ta thấy game thủ Việt Nam đã chuẩn bị vững vàng thế nào cho một meta mới, từ kỹ năng cho đến tư duy chiến thuật.",
+   "Team Flash, họ giống như Manchester United của bóng đá tại Liên quân Mobile (LQMB) vậy: là đội tuyển giàu thành tích nhất với 6 lần vô địch ĐTDV, 2 lần liên tiếp vô địch giải quốc tế, nhưng những gì họ trình diễn trong những mùa giải gần đây thì chẳng tương xứng chút nào. Ngay tại ĐTDV Xuân 2022, sau chiến thắng giòn giã 3-0 trước FAP Esports ở tuần thi đấu đầu tiên lại là một trận thua với tỉ số tương tự trước VGM, theo cái cách bị nhiều người gọi là bạc nhược và không có cửa bật.",
+   "Vấn đề của Team Flash thực chất không mới. Kể từ sau khi lên ngôi tại ĐTDV mùa Xuân 2020, phong độ của họ trồi sụt thất thường. Họ không thể lên ngôi vô địch thêm một giải quốc tế nào nữa, rồi về top 3 ở ĐTDV và để mất ngôi vương vào tay SGP. Chức vô địch ĐTDV mùa Xuân 2021 tưởng như đánh dấu cho sự trở lại của nhà vua, nhưng hóa ra mọi chuyện chỉ ngày càng xấu đi. Họ chẳng qua nổi vòng bảng của AIC và AWC 2021, và lại về top 3, mất ngôi vương ĐTDV mùa Đông 2021 vào tay SGP.",
+   "Mùa giải mới, Team Flash mang đến bộ mặt khác biệt với những cái tên mới mẻ. Nhưng trận thua trắng trước VGM khiến sự hy vọng dành cho họ vừa chớm nở đã vụt tắt. Giờ đây, người hâm mộ nhìn vào Flash như một mớ hỗn độn với câu hỏi lớn nhất mà chính Flash cũng chưa thể trả lời được: Phải làm gì mới đòi lại được ngôi vương?"
   ],
   "id": "12"
  }
