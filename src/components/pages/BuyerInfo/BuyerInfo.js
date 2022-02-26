@@ -1,7 +1,9 @@
 import React, { memo, useReducer } from 'react'
 import Button from '../../Button'
 import './BuyerInfo.css'
-import { initInput, reducer, setAddress, setEmail, setName, setNote, setPhone, setStateAddress, setStateEmail, setStateName, setStatePhone } from './buyer__store'
+import { initInput, reducer, setAddress, setEmail, setName,
+     setNote, setPhone, setStateAddress, setStateEmail,
+      setStateName, setStatePhone } from './buyer__store'
 import { useValidate } from './buyer__store/hooks'
 import InputForm from './InputForm'
 
@@ -37,7 +39,7 @@ function BuyerInfo() {
                                                 type='text'
                                                 id='name'
                                                 title='Họ & Tên'
-                                                placeholder='VD: Le Van A'
+                                                placeholder='VD: Nguyen Van A'
                                                 value={sName}
                                                 stateInput={stateName}
                                                 onBlur={() => dispatchBuyer(
