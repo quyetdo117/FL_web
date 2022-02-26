@@ -16,14 +16,14 @@ function InputForm(props) {
                             id={id} value={value}
                             placeholder={placeholder}
                         ></input> 
-                        {
-                            stateInput && stateInput.isInput === true && <i className="fas fa-check"></i>
-                        }
-                        {
-                            stateInput && stateInput.isInput === false && <i className="fas fa-exclamation"></i>
-                        }
-                        {/* <i className="fas fa-check"></i> */}
-                        {/* <i className="fas fa-exclamation"></i> */}
+                        <div className='form__input--warning'>
+                            {
+                                stateInput && stateInput.isInput === true && <i className="fas fa-check"></i>
+                            }
+                            {
+                                stateInput && stateInput.isInput === false && <i className="fas fa-exclamation"></i>
+                            }
+                        </div>
                     </div>
                     <span className='form__message'>
                         {

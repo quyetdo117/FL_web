@@ -38,10 +38,12 @@
     border: 2px solid rgb(1, 175, 10);
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
+
 .form__input input{
-    flex: 1;
+    width: 100%;
     border: none;
     outline: none;
     height: 38px;
