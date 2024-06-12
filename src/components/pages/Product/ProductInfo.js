@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
 import { addCart, convertPrice, updateCart, useStore } from '../../../store';
 import Breadcrum from '../../Breadcrum';
 import Button from '../../Button';
@@ -7,12 +7,17 @@ import Related from '../../RelatedProduct/Related';
 import NotiProduct from './NotiProduct';
 import './ProductInfo.css'
 
-function ProductInfo({dataItem}) {
-    const { src, name, color, printing, material, size, price, id } = dataItem
+function ProductInfo(props) {
+    const [dataProduct, setData] = useState({})
+    const {productId} = useParams();
+    const { src, name, color, printing, material, size, price, id } = dataProduct
     const [infoProduct, setInfoProduct] = useState({sizeItem: 'S', quantityItem: 1, noti: false})
     const {sizeItem, quantityItem, noti} = infoProduct
     const [stateG_Data, dispathG_Data] = useStore()
-    const {listCart} = stateG_Data
+    const {listCart} = stateG_Data;
+    useEffect(() => {
+
+    }, [])
 
     const onReduce = () => {
         if(quantityItem>1){
