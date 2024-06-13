@@ -1,15 +1,24 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
 import Breadcrum from '../../Breadcrum';
-import './NewsInfo.css'
+import './NewsInfo.css';
+import NetWorking from '../../../NetWorking/NetWorking'
 
 function NewsInfo({ dataItem }) {
-    const { src, title, content } = dataItem;
     const { newsId } = useParams();
+    const [infoNews, setInfoNews] = useState({});
 
     useEffect(() => {
+        let url = `/news_list/detail?id=${newsId}`
+        NetWorking.requestGet(url, (json) => {
+            let { data } = json;
+            console.log('loggg xem nao', json);
+            setInfoNews(data)
+        })
+    }, []);
 
-    }, [])
+    let {image, title, content} = infoNews
+
     return (
         <>
             <div className='news__info'>
@@ -21,16 +30,12 @@ function NewsInfo({ dataItem }) {
                             <div className='col b-12'>
                                 <div className='news__info-img-box'>
                                     <div className='news__info-img'>
-                                        <img src={src} alt='img'></img>
+                                        <img src={image} alt='img'></img>
                                     </div>
                                 </div>
                                 <div className='news__info-content'>
                                     <h2>{title}</h2>
-                                    {
-                                        content && content.map((item, index) => (
-                                            <div key={index}>{item}</div>
-                                        ))
-                                    }
+                                    <p>{content}</p>
                                 </div>
                             </div>
                         </div>

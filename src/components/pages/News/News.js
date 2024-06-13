@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Breadcrum from '../../Breadcrum';
 import { useStore } from '../../../store';
 import NewsItem from './NewsItem';
+import NetWorking from '../../../NetWorking/NetWorking'
 
 
 function News() {
-    const [stateG_Data,] = useStore();
-    const {listNews} = stateG_Data
+    const [newsList, setList] = useState([]);
+    useEffect(() => {
+        let url = '/news_list'
+        NetWorking.requestGet(url, (json) => {
+            let { data } = json;
+            setList(data)
+        })
+    }, []);
     return (
         <>
             <div className='app__news'>
@@ -16,8 +23,8 @@ function News() {
                         <div className='news__list'>
                             <div className='row'>
                                 {
-                                    listNews && listNews.map((item, index) => (
-                                        <NewsItem dataItem={item} key={index}/>
+                                    newsList && newsList.map((item, index) => (
+                                        <NewsItem dataItem={item} key={index} />
                                     ))
                                 }
                             </div>

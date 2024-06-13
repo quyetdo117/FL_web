@@ -1,13 +1,15 @@
 import React, { useEffect } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import './Main.css'
 import {CartPage, NewsPage, NewsInfo, ProductInfo, ProductPage, RankPage, HomePage, MemberPage} from './index'
 import BuyerInfo from './pages/BuyerInfo/BuyerInfo';
 
 function Main(props) {
+  const pathname = useLocation();
+  console.log(useLocation());
   useEffect(() => {
     window.scrollTo(0, 0)
-  },[pathname])
+  },[pathname?.pathname])
   return (<>
     <div className='app__main' style={{minHeight: window.innerHeight}}>
         <>
