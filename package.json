@@ -42,5 +42,6 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  }
+  },
+  "proxy": "http://localhost:8000"
 }

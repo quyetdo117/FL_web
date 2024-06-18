@@ -6,29 +6,35 @@ import Button from '../../Button';
 import Related from '../../RelatedProduct/Related';
 import NotiProduct from './NotiProduct';
 import './ProductInfo.css'
+import NetWorking from '../../../NetWorking/NetWorking'
 
 function ProductInfo(props) {
     const [dataProduct, setData] = useState({})
-    const {productId} = useParams();
-    const { src, name, color, printing, material, size, price, id } = dataProduct
-    const [infoProduct, setInfoProduct] = useState({sizeItem: 'S', quantityItem: 1, noti: false})
-    const {sizeItem, quantityItem, noti} = infoProduct
+    const { productId } = useParams();
+    const { src, name, color, printing, material, size, price, _id } = dataProduct
+    const [infoProduct, setInfoProduct] = useState({ sizeItem: 'S', quantityItem: 1, noti: false })
+    const { sizeItem, quantityItem, noti } = infoProduct
     const [stateG_Data, dispathG_Data] = useStore()
-    const {listCart} = stateG_Data;
+    const { listCart } = stateG_Data;
     useEffect(() => {
-
+        let url = `/products/detail?id=${productId}`
+        NetWorking.requestGet(url, (json) => {
+            console.log('loggg jsonnn product', json);
+            let { data } = json;
+            setData(data)
+        })
     }, [])
 
     const onReduce = () => {
-        if(quantityItem>1){
-            setInfoProduct({...infoProduct, quantityItem: quantityItem - 1})
+        if (quantityItem > 1) {
+            setInfoProduct({ ...infoProduct, quantityItem: quantityItem - 1 })
         }
     }
     const onIncrease = () => {
-        setInfoProduct({...infoProduct, quantityItem: quantityItem + 1})
+        setInfoProduct({ ...infoProduct, quantityItem: quantityItem + 1 })
     }
     const onHiddenNoti = () => {
-        setInfoProduct({...infoProduct, noti: false})
+        setInfoProduct({ ...infoProduct, noti: false })
     }
 
     const setCart = () => {
@@ -39,41 +45,20 @@ function ProductInfo(props) {
             size: sizeItem,
             quantity: quantityItem,
             price: price,
-            idProduct: id
+            idProduct: _id
         }
-        const hadCartItem = listCart.find(item => {
-            return (item.size === sizeItem && item.idProduct === id)
-        })
-        if(hadCartItem){
-            const indexCartItem = listCart.indexOf(hadCartItem)
-            fetch(`https://61dceedb591c3a0017e1ab26.mockapi.io/api/Cart/${hadCartItem.id}`,
-                {
-                    method: 'PUT',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({...dataProduct,quantity: quantityItem + hadCartItem.quantity})
-                }
-            )
-            const newCartItem = {...hadCartItem, quantity: quantityItem + hadCartItem.quantity}
-            dispathG_Data(updateCart({cartItem: newCartItem, index: indexCartItem}))
-        }else{
-            fetch('https://61dceedb591c3a0017e1ab26.mockapi.io/api/Cart', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(dataProduct)
-            })
-                .then(response => response.json())
-                .then(data => dispathG_Data(addCart(data)))
-        }
-        setInfoProduct({...infoProduct, noti: true})
+        let url = '/cart/add_product';
+        NetWorking.requestPost(url, (json) => {
+            let { error, data } = json;
+            if(error == 0){
+                setInfoProduct({ ...infoProduct, noti: true })
+            }
+        }, dataProduct)
     }
-  return (
+    return (
         <>
             {
-                noti && <NotiProduct dataNoti={{src: src, name: name, quantity: quantityItem}} onHidden={onHiddenNoti}/>
+                noti && <NotiProduct dataNoti={{ src: src, name: name, quantity: quantityItem }} onHidden={onHiddenNoti} />
             }
             <div className='product-item__info'>
                 <Breadcrum>
@@ -85,7 +70,7 @@ function ProductInfo(props) {
                         <div className='row'>
                             <div className='col b-6 s-12'>
                                 <div className='product-item__img'>
-                                    <img alt='img' src={src}/>
+                                    <img alt='img' src={src} />
                                 </div>
                             </div>
                             <div className='col b-6 s-12'>
@@ -117,11 +102,11 @@ function ProductInfo(props) {
                                                             size && size.map((item, index) => (
                                                                 <div className='size__item' key={index}>
                                                                     <input type='radio'
-                                                                    value={item}
-                                                                    checked={sizeItem === item}
-                                                                    onChange={() => setInfoProduct({...infoProduct, sizeItem: item})}
-                                                                    name='size-product'
-                                                                    className='size__input'></input>
+                                                                        value={item}
+                                                                        checked={sizeItem === item}
+                                                                        onChange={() => setInfoProduct({ ...infoProduct, sizeItem: item })}
+                                                                        name='size-product'
+                                                                        className='size__input'></input>
                                                                     <span>{item}</span>
                                                                 </div>
                                                             ))

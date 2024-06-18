@@ -5,7 +5,7 @@ import BuyNow from './BuyNow';
 import './ProductItem.css'
 
 function ProductItem({dataProduct}) {
-    const {src, name, color, price, id } = dataProduct
+    const {src, name, color, price, _id } = dataProduct
     const [stateShow, setStateShow] = useState(false)
     const onBuyNow = () => {
         setStateShow(!stateShow)
@@ -23,13 +23,13 @@ function ProductItem({dataProduct}) {
                         <span className='product__coat-option' onClick={onBuyNow}>
                             <i className="fas fa-shopping-cart"></i>
                         </span>
-                        <Link to={id} className='product__coat-option'>
+                        <Link to={_id} className='product__coat-option'>
                             <i className="fas fa-eye"></i>
                         </Link>
                     </div>
                 </div>
                 <div className='product__discription'>
-                    <Link to={id} className='product__name'>
+                    <Link to={_id} className='product__name'>
                         {`${name} - ${color}`}
                     </Link>
                     <span className='product__price'>{convertPrice(price)}</span>

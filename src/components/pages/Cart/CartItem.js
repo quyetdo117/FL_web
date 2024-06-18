@@ -1,45 +1,58 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { convertPrice, removeCart, updateCart, useStore } from '../../../store';
-import './CartItem.css'
+import './CartItem.css';
+import NetWorking from '../../../NetWorking/NetWorking'
 
-function CartItem({dataItem, indexCart}) {
-    const {src, name, color, size, price, quantity, idProduct, id} = dataItem
-    const [, dispatchG_Data] = useStore()
+function CartItem({ dataItem, indexCart, callback }) {
+    const { src, name, color, size, price, quantity, idProduct, _id } = dataItem
+    const [quantityItem, setNum] = useState(quantity)
 
     const onRemove = () => {
-        dispatchG_Data(removeCart(indexCart))
-        fetch(`https://61dceedb591c3a0017e1ab26.mockapi.io/api/Cart/${id}`, {
-            method: 'DELETE',
-            headers: {
-                'Content-Type': 'application/json'
+        let url = `/cart/delete_product`;
+        let body = {
+            id: _id
+        }
+        NetWorking.requestPost(url, (json) => {
+            console.log('loggg jsonnn product', json);
+            let { error } = json;
+            if (error == 0) {
+                if(callback){
+                    callback();
+                }
             }
-        })
+        }, body)
     }
 
     const onReduce = () => {
-        if(quantity > 1){
-            fetch(`https://61dceedb591c3a0017e1ab26.mockapi.io/api/Cart/${id}`, {
-                method: 'PUT',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({...dataItem, quantity: quantity - 1})
-            })
-                    .then(response => response.json())
-                    .then(data => dispatchG_Data(updateCart({cartItem: data, index: indexCart})))
+        if (quantityItem > 1) {
+            let url = `/cart/update_quantity`;
+            let body = {
+                quantity: quantityItem - 1,
+                id: _id
+            }
+            NetWorking.requestPost(url, (json) => {
+                console.log('loggg jsonnn product', json);
+                let { error } = json;
+                if (error == 0) {
+                    setNum(quantityItem - 1)
+                }
+            }, body)
         }
     }
     const onInrease = () => {
-        fetch(`https://61dceedb591c3a0017e1ab26.mockapi.io/api/Cart/${id}`, {
-                method: 'PUT',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({...dataItem, quantity: quantity + 1})
-            })
-                    .then(response => response.json())
-                    .then(data => dispatchG_Data(updateCart({cartItem: data, index: indexCart})))
+        let url = `/cart/update_quantity`;
+        let body = {
+            quantityItem: quantityItem + 1,
+            id: _id
+        }
+        NetWorking.requestPost(url, (json) => {
+            console.log('loggg jsonnn product', json);
+            let { error } = json;
+            if (error == 0) {
+                setNum(quantityItem + 1)
+            }
+        }, body)
     }
     return (
         <>
@@ -51,7 +64,7 @@ function CartItem({dataItem, indexCart}) {
                     <div className='cart__name-price'>
                         <Link to={`/product/${idProduct}`} className='cart__name'>{name}</Link>
                         <span className='cart__price price-color'>
-                            {convertPrice(price*quantity)}
+                            {convertPrice(price * quantity)}
                         </span>
                     </div>
                     <span className='cart__color'>{`Màu : ${color}`}</span>
@@ -59,7 +72,7 @@ function CartItem({dataItem, indexCart}) {
                     <div className='cart__item--bottom'>
                         <div className='product__quantity'>
                             <button onClick={onReduce}>-</button>
-                            <input type='number' disabled value={quantity} />
+                            <input type='number' disabled value={quantityItem} />
                             <button onClick={onInrease}>+</button>
                         </div>
                         <span className='cart__remove' onClick={onRemove}>Xóa</span>

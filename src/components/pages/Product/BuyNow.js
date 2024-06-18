@@ -3,6 +3,7 @@ import { addCart, convertPrice, updateCart, useStore } from '../../../store';
 import Button from '../../Button';
 import './BuyNow.css'
 import NotiProduct from './NotiProduct';
+import NetWorking from '../../../NetWorking/NetWorking'
 
 function BuyNow({onHidden, dataProduct}) {
     const {src, name, color, price, size, id} = dataProduct
@@ -33,34 +34,13 @@ function BuyNow({onHidden, dataProduct}) {
             price: price,
             idProduct: id
         }
-        const hadCartItem = listCart.find(item => {
-            return (item.size === sizeItem && item.idProduct === id)
-        })
-        if(hadCartItem){
-            const indexCartItem = listCart.indexOf(hadCartItem)
-            fetch(`https://61dceedb591c3a0017e1ab26.mockapi.io/api/Cart/${hadCartItem.id}`,
-                {
-                    method: 'PUT',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({...dataProduct,quantity: quantityItem + hadCartItem.quantity})
-                }
-            )
-            const newCartItem = {...hadCartItem, quantity: quantityItem + hadCartItem.quantity}
-            dispathG_Data(updateCart({cartItem: newCartItem, index: indexCartItem}))
-        }else{
-            fetch('https://61dceedb591c3a0017e1ab26.mockapi.io/api/Cart', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(dataProduct)
-            })
-            .then(response => response.json())
-            .then(data => dispathG_Data(addCart(data)))
-        }
-        setBuyNow({...buyNow, noti: true})
+        let url = '/cart/add_product';
+        NetWorking.requestPost(url, (json) => {
+            let { error, data } = json;
+            if(error == 0){
+                onHiddenNoti();
+            }
+        }, dataProduct)
     }
     return (
     <>

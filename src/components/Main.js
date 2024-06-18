@@ -22,8 +22,8 @@ function Main(props) {
                 <Route path='/cart' element={<CartPage />}></Route>
                 <Route path='/buyerInfo' element={<BuyerInfo />}></Route>
                 <Route path='/rank' element={<RankPage />}></Route>
-                <Route path='/news' element={<NewsPage />}></Route>
                 <Route path={`/news/:newsId`} element={<NewsInfo/>}></Route>
+                <Route path='/news' element={<NewsPage />}></Route>
             </Routes>
         </>
     </div>

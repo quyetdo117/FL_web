@@ -5,9 +5,29 @@ import Button from '../../Button';
 import Related from '../../RelatedProduct/Related';
 import './Cart.css'
 import CartItem from './CartItem';
+import { useEffect, useState } from 'react';
+import NetWorking from '../../../NetWorking/NetWorking'
 
 function Cart() {
-    const [stateG_Data,] = useStore();
+    const [dataList, setData] = useState([]);
+
+    useEffect(() => {
+        requestCart();
+    }, []);
+
+    const requestCart = () => {
+        let url = `/cart`
+        NetWorking.requestGet(url, (json) => {
+            console.log('loggg jsonnn product', json);
+            let { data } = json;
+            setData(data)
+        })
+    }
+
+    const callBack = () => {
+        requestCart();
+    }
+
     return (
         <>
             <div className='app__cart'>
@@ -16,7 +36,7 @@ function Cart() {
                     <div className='grid'>
                         <div className='row'>
                             <div className='col b-9 m-12 s-12'>
-                                <div className={stateG_Data.listCart.length === 0 ? 'no-cart' : 'no-cart hidden'}>
+                                <div className={dataList.length === 0 ? 'no-cart' : 'no-cart hidden'}>
                                     <span>Giỏ hàng trống !</span>
                                     <div className='no-cart__img'>
                                         <img src="https://uchimart.com/assets/images/no-cart.png" alt="img"></img>
@@ -26,10 +46,10 @@ function Cart() {
                                 </div>
                                 <div className='cart__list'>
                                     {
-                                        stateG_Data.listCart &&
-                                        stateG_Data.listCart.map((item, index) => (
-                                            <CartItem dataItem={item} key={index} indexCart={index}/>
-                                        ))
+                                        dataList.length ?
+                                        dataList.map((item, index) => (
+                                            <CartItem dataItem={item} key={index} indexCart={index} callback={callBack}/>
+                                        )) : null
                                     }
                                 </div>
                             </div>
@@ -39,12 +59,12 @@ function Cart() {
                                         <span>Tổng tiền :</span>
                                         <span className='cart__total-price price-color'>
                                             {
-                                                stateG_Data.listCart &&
+                                                dataList.length ?
                                                 convertPrice(
-                                                    stateG_Data.listCart.reduce((total, currentItem) => {
+                                                    dataList.reduce((total, currentItem) => {
                                                         return total + currentItem.quantity*currentItem.price
                                                     }, 0)
-                                                )
+                                                ) : null
                                             }
                                         </span>
                                     </div>
@@ -52,8 +72,8 @@ function Cart() {
                                         className='cart__btn'
                                     >
                                         <Button
-                                            disabled={!!!(stateG_Data.listCart.length)}
-                                            toLink={ !!(stateG_Data.listCart.length) && '/buyerInfo' }
+                                            disabled={!!!(dataList.length)}
+                                            toLink={ !!(dataList.length) && '/buyerInfo' }
                                         >Đặt hàng</Button>
                                     </div>
                                 </div>
